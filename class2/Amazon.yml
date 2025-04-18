@@ -1,0 +1,11 @@
+- name: Install apache
+  ansible.builtin.dnf:
+    name: httpd
+    state: present
+    update_cache: yes
+  
+- name: Start service apache2
+  ansible.builtin.service:
+    name: httpd
+    state: started
+    enabled: yes
