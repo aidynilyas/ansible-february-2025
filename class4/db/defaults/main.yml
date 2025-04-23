@@ -1,0 +1,4 @@
+loginunix: /run/mysqld/mysqld.sock
+db_name: kaizen
+db_user: hello
+db_pass: hello123
